@@ -27,5 +27,6 @@ $films = array(
 			"stars" => array("Bill Murry", "Mark Hammel","Leonard Dicaprio","Cat"),
 			);
 			
- 
+ $input_array = array("Bill", "Murray");
+print_r(array_change_key_case($input_array, CASE_LOWER));
 ?>  
