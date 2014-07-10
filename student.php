@@ -1,8 +1,14 @@
 <?php
-class User{} //declaring a object
 
-//instanttiate the object from the class
-$user = new User();
-var_dump($user);
+//phpinfo();
+class User{              //declaring a object
+var $name = "FTFL";
+var $email = "";
+}
+
+$user = new User();      //instanttiate the object from the class
+//var_dump($user);
+echo $user->name;
+
 
 ?>
