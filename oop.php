@@ -2,7 +2,7 @@
 
 		class User{
 		
-			private function userAge(){
+			protected function userAge(){
 			
 			return 'some value';
 			}
